@@ -34,4 +34,4 @@ jobs:
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | sh
           postman login --with-api-key PMAK-681e4c07aa4f7200011426c0-f98d450be11fd16f2095181e9e21405c14
-          postman collection run "14402391-bf864feb-c125-4046-b018-58399a563ca9" -e "14402391-0bf1c0d5-f4d6-4642-bcef-c3e27d76c66e"
+          postman collection run "14402391-bf864feb-c125-4046-b018-58399a563ca9" -e "14402391-0bf1c0d5-f4d6-4642-bcef-c3e27d76c66e" --insecure
